@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+
+</head>
+
+  <body>
+    
+    <div id="menu-placeholder"></div>
+    <nav>
+      <object width="100%" height="65px" data="menu.html"></object>
+    </nav>
+
+    <img src = 'https://github.com/DWBA4/dwba4_semana_imagens/blob/master/Logo.jpg?raw=true' />
+    
+    <h1>Mande uma mensagem</h1>
+
+    <form>
+      <ul>
+        <li>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" required><br>
+        </li>
+        <li>
+          <label for="email">E-Mail:</label>
+          <input type="text" name="email" id="email" required><br>
+        </li>
+        <li>
+          <label for="phone">Telefone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" pattern="(\[0-9]{2}\) [0-9]{5}-[0-9]{4}" required><br>
+        </li>
+        <li>
+          <label for="assunto">Assunto:</label>
+          <select type="text" name="assunto" id="assunto" required><br>
+            <option value="selecione">-- Selecione --</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="sugestao">Sugestão</option>
+          </select><br>
+        </li>
+        <li>
+          <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea><br>
+        </li>
+        <li>
+          <fieldset>
+            <legend>Opções de Resposta</legend>
+            <label for="email">Email</label>
+            <input type="checkbox" id="email" name="email" value="email">
+            <label for="telefone">Telefone</label>
+            <input type="checkbox" id="telefone" name="telefone" value="tel">
+          </fieldset>
+        </li>
+        <li>
+          <input type="submit" value="Enviar">
+        </li>
+        
+      </ul>
+    </form>
+    <br><br>
+
+    <footer>
+    <a href='https://www.facebook.com/ifsppirituba/?locale=pt_BR'><img src = 'https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/facebook.png' width = '50px'  class="media-object  img-responsive img-thumbnail" /></a><br>
+    
+    
+    IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+    </footer>
+  </body>
+</html>
